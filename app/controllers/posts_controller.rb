@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   before_action :set_post, only: [:show]
 
   def index
-    #code
+    @posts = Post.all.includes(:user)
   end
 
   def new
