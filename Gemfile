@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.2'
 #New Gems
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'devise', '~> 4.2'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
